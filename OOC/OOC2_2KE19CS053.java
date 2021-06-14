@@ -33,7 +33,7 @@ public class OOC2_2KE19CS053 {
                         break;
                     case 2:
                         ch = enterchar(reader);
-                        if ((ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') && ch > 'a' && ch < 'z') {
+                        if ((ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') && ch > 'a' && ch <='z') {
                             System.out.println("\n" + ch + " is a consonant\n");
                         } else {
                             System.out.println("\n" + ch + " is not a consonant\n");
@@ -41,7 +41,7 @@ public class OOC2_2KE19CS053 {
                         break;
                     case 3:
                         ch = enterchar(reader);
-                        if (!(ch >= 'a' && ch <= 'z') && !(ch > '0' && ch < '9')) {
+                        if (!(ch >= 'a' && ch <= 'z') && !(ch >= '0' && ch <= '9')) {
                             System.out.println("\n" + ch + " is a special character\n");
                         } else {
                             System.out.println("\n" + ch + " is not a special character\n");
