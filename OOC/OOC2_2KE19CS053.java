@@ -1,5 +1,9 @@
+/*
+Author : Mohammed Muzammil
+Java Assignment 
+Semester IV
+*/
 import java.util.Scanner;
-import java.lang.*;
 public class OOC2_2KE19CS053{
     public static char enterchar(){
         char ch;
