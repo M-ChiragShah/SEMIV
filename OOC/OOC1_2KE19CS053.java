@@ -12,7 +12,7 @@ public class OOC1_2KE19CS053 {
         Scanner reader = new Scanner(System.in);
         int choice = 0;
         int op1, op2;
-        double result;
+        int result;
         while (choice != 6) {
             System.out.println(
                     "\nCHOOSE ONE OF THE ARITHMETIC OPERATIONS\n1. Addition\n2. Subtraction \n3. Multiplication \n4. Division \n5. Remainder\n6. Exit\n");
@@ -42,11 +42,11 @@ public class OOC1_2KE19CS053 {
                     case 4:
                         System.out.println("\nDIVISION\n");
                         try {
-                            result = (float)op1 / (float)op2;
+                            result = op1 / op2;
                             System.out.println(op1 + " / " + op2 + " = " + result);
                         } catch (ArithmeticException e) {
-                            System.out.println("\nCANNOT DIVIDE BY 0!\n");
-                        }
+                                System.out.println("\nCANNOT DIVIDE BY 0!\n");
+                       }
                         break;
                     case 5:
                         System.out.println("\nRemainder\n");
