@@ -3,9 +3,10 @@ import java.lang.*;
 public class OOC2_2KE19CS053{
     public static char enterchar(){
         char ch;
-        Scanner  reader = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("\nENTER A CHARACTER : ");
-        ch = reader.next().charAt(0);
+        ch = input.next().charAt(0);
+        input.close();
         return Character.toLowerCase(ch);
     }
     public static void main(String[] args){
